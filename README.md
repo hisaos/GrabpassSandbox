@@ -1,7 +1,7 @@
-# GrabpassSandbox
+## GrabpassSandbox
 GrabpassでPhotoshop風のレイヤー重ね合わせによるブレンド効果をUnityで実装してみた  
 Spriteどうしの重ね合わせでスクリーンやハードライトなどの効果を得られます
-# 実装してるブレンドモード
+## 実装してるブレンドモード
 - 焼き込み(ColorBurn)
 - 覆い焼き(ColorDodge)
 - 差(Difference)
@@ -19,14 +19,14 @@ Shaders配下にこれらのブレンドモードを計算する.shaderが並ん
 Materials配下にある.matにこれらのシェーダを適用したマテリアルが並んでます  
 シェーダー名は各ブレンドモードの英語名に接頭辞"Grab"を付けたもの、マテリアル名はシェーダー名と同じです  
 スプライトに.matを適用してブレンドモードを指定した表示できます
-# サンプル
-## Scenes/RGBbox
+## サンプル
+### Scenes/RGBbox
 R,G,Bの正方形を重ね合わせて表示
-## Scenes/ShaderAnimation
+### Scenes/ShaderAnimation
 重ねているほうのスプライトに適用するシェーダーをUnityのアニメーションで切り替えるループ
-# ライセンス
+## ライセンス
 MIT License
-# 参考にしたもの
+## 参考にしたもの
 [ブレンドモード詳説 - osakana.factory](https://ofo.jp/osakana/cgtips/blendmode.phtml)  
 [Blend Modes in Unity - Elringus](https://elringus.me/blend-modes-in-unity/)  
 [Unity の Shader (ShaderLab) 知識ざっくりメモ](http://izmiz.hateblo.jp/entry/2014/02/23/223405)  
