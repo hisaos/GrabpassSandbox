@@ -1,1 +1,3 @@
-# GrabpassTest
+# GrabpassSandbox
+GrabpassでPhotoshopのレイヤー効果っぽいものをUnityで実現してみたやつ
+Spriteどうしの重ね合わせでスクリーンやハードライトなどの効果を得られます
