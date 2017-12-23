@@ -311,6 +311,18 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1516026313396594, guid: fd1bcdd919d354cc0aef38302bca493a, type: 2}
+      propertyPath: m_Name
+      value: Characters
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388866566565028, guid: fd1bcdd919d354cc0aef38302bca493a, type: 2}
+      propertyPath: m_Name
+      value: chara_red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493874938362952, guid: fd1bcdd919d354cc0aef38302bca493a, type: 2}
+      propertyPath: m_Name
+      value: chara_blue
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fd1bcdd919d354cc0aef38302bca493a, type: 2}
   m_IsPrefabParent: 0
